@@ -1,0 +1,104 @@
+.container{
+    max-width:400px;
+    margin: 0 auto 0 auto;
+    box-shadow: 0px 0px 43px 7px rgba(153,153,153,1);
+}
+#display{
+    text-align: right;
+    height: 40px;
+    line-height: 40px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+.buttons{
+    display:grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: transparent;
+}
+.buttons > div{
+    border-top:1px solid #999;
+    border-right:1px solid #999;
+    background-color: aqua;
+}
+.button{
+    border: 0.5 solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer; 
+}
+.button:hover{
+    background-color: blue;
+    color:white;
+    transition: 0.5 ease-in-out;
+}
+#equal{
+    background-color: #ff00ff;
+    color: white;
+}
+#one:hover{
+    background-color: blueviolet;
+    color: white;
+}
+#two:hover{
+    background-color: brown;
+    color: white;
+}
+#three:hover{
+    background-color: chartreuse;
+    color: white;
+}
+#four:hover{
+    background-color: crimson;
+    color: white;
+}
+#five:hover{
+    background-color: darkgoldenrod;
+    color: white;
+}
+#six:hover{
+    background-color: darkred;
+    color: white;
+}
+#seven:hover{
+    background-color:gold;
+    color: white;
+}
+#eight:hover{
+    background-color: lawngreen;
+    color: white;
+}
+#nine:hover{
+    background-color: orangered;
+    color: white;
+}
+#zero:hover{
+    background-color: black;
+    color: white;
+}
+#add:hover{
+    background-color: purple;
+    color: white;
+}
+#substract:hover{
+    background-color: indianred;
+    color: white;
+}
+#multiple:hover{
+    background-color: greenyellow;
+    color: white;
+}
+#slash:hover{
+    background-color: midnightblue;
+    color: white;
+}
+#dot:hover{
+    background-color: yellow;
+    color: white;
+}
+#del:hover{
+    background-color: red;
+    color: white;
+}
